@@ -2,40 +2,23 @@ import React from 'react'
 
 function Part2() {
   return (
-    <div className="font-sans">
-      <section className="h-screen flex flex-col bg-gray-100">
-        <header className="flex flex-col justify-center items-center py-16 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold leading-tight text-center text-gray-900">
-            Our Amazing Benefits Helpful For Your Hiring
-          </h1>
-          <div className="mt-8 text-center text-gray-500">
-            <p className="text-lg">
-              Cost Reduce 60% Faster Recruitment by TAT
-            </p>
-            <p className="text-lg">Highly Contextualized Interview</p>
-          </div>
-        </header>
-        <main className="flex flex-col flex-grow justify-center px-4 sm:px-6 lg:px-8">
-          <section className="grid grid-cols-2 gap-8">
-            <div className="bg-white rounded-lg shadow-md px-6 py-8">
-              <h3 className="text-xl font-medium text-gray-900 mb-2">
-                Zero overhead in the hiring process - promise!
-              </h3>
-              <p className="text-gray-500 text-base">
-                Source top quality candidates for some of the best companies
-              </p>
-            </div>
-            <div className="bg-white rounded-lg shadow-md px-6 py-8">
-              <h3 className="text-xl font-medium text-gray-900 mb-2">
-                Automated Scheduling in-built ATS
-              </h3>
-              <p className="text-gray-500 text-base">
-                Email & WhatsApp based communication for interview scheduling with automated reminders.
-              </p>
-            </div>
-          </section>
-        </main>
-      </section>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold mb-8">How Our System Operates</h1>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+          <h3 className="text-lg font-medium mb-2">Shortlist the most qualified candidate</h3>
+          <p className="text-gray-600">Upload documents and shortlist the most qualified candidates for the top companies.</p>
+        </div>
+        <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+          <h3 className="text-lg font-medium mb-2">Sign Up</h3>
+          <p className="text-gray-600">Follow the link below to sign up and get access to the current job postings.</p>
+          <button className="mt-4 inline-block px-4 py-2 bg-blue-500 text-white font-medium rounded-lg shadow-sm hover:bg-blue-700">Get Started</button>
+        </div>
+        <div className="p-4 bg-gray-100 rounded-lg shadow-md">
+          <h3 className="text-lg font-medium mb-2">Get Rewards</h3>
+          <p className="text-gray-600">As soon as the candidate gets selected you get your benefits.</p>
+        </div>
+      </div>
     </div>
   )
 }
