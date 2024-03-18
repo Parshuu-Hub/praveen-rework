@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Section3() {
+function Part3() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8">How Our System Operates</h1>
@@ -23,4 +23,4 @@ function Section3() {
   )
 }
 
-export default Section3
+export default Part3

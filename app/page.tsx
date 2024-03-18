@@ -1,15 +1,16 @@
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
+import Part1 from "./components/Part1";
+import Part2 from "./components/Part2";
+import Part3 from "./components/Part3";
+import Part4 from "./components/Part4";
+
 
 export default function Home() {
   return (
     <>
-      <Section1/>
-      <Section2 />
-      <Section3/>
-      <Section4/>
+      <Part1/>
+      <Part2 />
+      <Part3/>
+      <Part4/>
     </>
   );
 }

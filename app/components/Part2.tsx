@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Section2() {
+function Part2() {
   return (
     <div className="font-sans">
       <section className="h-screen flex flex-col bg-gray-100">
@@ -40,4 +40,4 @@ function Section2() {
   )
 }
 
-export default Section2;
+export default Part2;

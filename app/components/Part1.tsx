@@ -1,8 +1,10 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react'
 
-function Navbar() {
+function Part1() {
   return (
+    <>
+    
     <div className="w-full h-[718px] bg-[#F6F6F6]">
       <div className="h-[112px] flex justify-between">
         <div className="w-[139px] h-10 mt-9 ml-[120px] border-[1.43px] bg-[#5C27C0] text-white justify-center text-center rounded-tl-[5.71px] rounded-tr-[5.71px] rounded-bl-[5.71px]">
@@ -82,7 +84,9 @@ function Navbar() {
         </div>
       </div>
     </div>
-  );
+    
+    </>
+  )
 }
 
-export default Navbar;
+export default Part1;

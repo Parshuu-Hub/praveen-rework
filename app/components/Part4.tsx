@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Section4() {
+function Part4() {
   return (
     <div className="pricing-table bg-gray-100 p-8">
       <div className="text-center pb-8">
@@ -61,4 +61,4 @@ function Section4() {
   )
 }
 
-export default Section4
+export default Part4;
